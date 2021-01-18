@@ -16,7 +16,7 @@ Launch Bukukas App
 
    Open Application  http://rahulraja6:F6H2hv8my2QxyrZd86DG@hub-cloud.browserstack.com/wd/hub  automationName=Appium
   ...  platformName=Android  platformVersion=10.0  device=OnePlus 8
-  ...  app=bs://b2ed258224fb973ffe3588d8c4ef052d88c853fa  appPackage=com.beecash.app  appActivity=com.beecash.app.MainActivity
+  ...  app=bs://a5980224cb9361563b4ca722e49e25c61669efb5  appPackage=com.beecash.app  appActivity=com.beecash.app.MainActivity
 
 Login To BukukasApp
 
