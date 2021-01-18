@@ -18,6 +18,7 @@ Launch Bukukas App
   ...  platformName=Android  platformVersion=10.0  device=OnePlus 8
   ...  app=bs://a5980224cb9361563b4ca722e49e25c61669efb5  appPackage=com.beecash.app  appActivity=com.beecash.app.MainActivity
 
+
 Login To BukukasApp
 
       click text          ${AYO_MULAI}
