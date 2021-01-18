@@ -14,7 +14,7 @@ Launch Bukukas App
       #Log to Console      Bukukas App is launched
       #Sleep       2s
 
-    Open Application  http://rahulkumarraja3:FyQSEq7iuJ9mXqXZxHAp@hub-cloud.browserstack.com/wd/hub  automationName=Appium
+   Open Application  http://rahulraja6:F6H2hv8my2QxyrZd86DG@hub-cloud.browserstack.com/wd/hub  automationName=Appium
   ...  platformName=Android  platformVersion=10.0  device=OnePlus 8
   ...  app=bs://b2ed258224fb973ffe3588d8c4ef052d88c853fa  appPackage=com.beecash.app  appActivity=com.beecash.app.MainActivity
 
