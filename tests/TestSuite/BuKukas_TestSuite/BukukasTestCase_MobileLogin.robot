@@ -1,6 +1,8 @@
 *** Settings ***
 
 Resource    ../../Keyword/BukuKas_Keywords/Login.robot
+Library        Screenshot
+
 Test Setup      Set Screenshot Directory      ${CURDIR}${/}..${/}..${/}Screengrab
 
 

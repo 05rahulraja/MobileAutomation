@@ -14,9 +14,10 @@ Launch Bukukas App
       #Log to Console      Bukukas App is launched
       #Sleep       2s
 
-   Open Application  http://rahulraja6:F6H2hv8my2QxyrZd86DG@hub-cloud.browserstack.com/wd/hub  automationName=Appium
-  ...  platformName=Android  platformVersion=10.0  device=OnePlus 8
-  ...  app=bs://a5980224cb9361563b4ca722e49e25c61669efb5  appPackage=com.beecash.app  appActivity=com.beecash.app.MainActivity      BROWSERSTACK_BUILD_NAME=testrahul
+   ${build_name}=  getBuildName
+    Open Application  http://rahulraja6:F6H2hv8my2QxyrZd86DG@hub-cloud.browserstack.com/wd/hub  automationName=Appium
+  ...  platformName=Android  platformVersion=10.0  device=OnePlus 8 build=${build_name}
+  ...  app=bs://a5980224cb9361563b4ca722e49e25c61669efb5  appPackage=com.beecash.app  appActivity=com.beecash.app.MainActivity
 
 
 Login To BukukasApp
