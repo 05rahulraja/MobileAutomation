@@ -1,5 +1,6 @@
 *** Settings ***
 Library     AppiumLibrary
+Library     ../Custom_Library.py
 
 Variables    ../../Variable/BukuKas_Variable/Common_Variable.py
 Variables    ../../Variable/Environment.py

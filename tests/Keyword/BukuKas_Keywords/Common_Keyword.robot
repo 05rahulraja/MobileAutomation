@@ -1,9 +1,9 @@
 *** Settings ***
 Library       BuiltIn
 Library       String
-Library       DependencyLibrary
 Library       AppiumLibrary
 Library       DateTime
+Library     ../Custom_Library.py
 Variables     ../../Variable/BukuKas_Variable/Common_Variable.py
 Variables     ../../Keyword/Custom_Library.py
 Variables     ../../Variable/Environment.py
