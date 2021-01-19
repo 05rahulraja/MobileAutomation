@@ -13,7 +13,7 @@ Test Setup      Set Screenshot Directory      ${CURDIR}${/}..${/}..${/}Screengra
 Signing In To MobileApp-Bukukas Mobile+OTP
     [Documentation]  This test is to validate the login flow  of BeeCash App
     [Tags]    login    smoke
-    [Teardown]    Run Keyword If Test Failed    Capture Page Screenshot         filename=Screengrab/login.png
+    [Teardown]    Run Keyword If Test Failed    Capture Page Screenshot         filename=Screengrab/screenshot.png
          Launch Bukukas App
          Login To BukukasApp
          Validate Hutang Tab
