@@ -1,6 +1,7 @@
 *** Settings ***
 
 Resource    ../../Keyword/BukuKas_Keywords/Login.robot
+Test Setup      Set Screenshot Directory   ${CURDIR}/BeeCase_MobileApp/test/Screengrab
 
 
 
